@@ -2,6 +2,10 @@
     background-color: #E5B061;
     height: 10vh;
     align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 .nav {
     height: 100%;

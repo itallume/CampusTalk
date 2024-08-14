@@ -28,9 +28,11 @@ html {
 }
 
 .row-item {
-  outline: 2px solid rgba(0, 0, 0, 0.205);
+  border: solid 1px rgb(175, 175, 175);
+  box-shadow: 5px 3px 0px rgb(110, 110, 110);
   cursor: pointer;
   transition: all 0.15s ease-in;
+  border-radius: 20px;
 }
 
 .row-item:hover {

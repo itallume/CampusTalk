@@ -7,3 +7,10 @@ body {
   background: #ffe7c7;
 }
 
+#forum{
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 1fr;
+}
+

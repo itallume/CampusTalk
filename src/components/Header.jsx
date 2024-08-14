@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Logo from "@/image/logo.png"
-import styles from "./Header.module.css"
+import styles from "@/components/styles/Header.module.css"
 import { CiSearch } from "react-icons/ci";
 
 export default function Header(){

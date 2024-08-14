@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
-import "./TrendingSlider.css";
+import "@/components/styles/TrendingSlider.css";
 
 export default function TrendingSlider() {
   const filteredItems = [
