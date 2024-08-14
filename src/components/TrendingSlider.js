@@ -89,11 +89,12 @@ export default function TrendingSlider() {
   const slideRight = () => {
     let slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft + 235;
+    console.log("entrei")
   };
   return (
     <>
       <div className="trending">
-        <div className="buttonConfigsRight">
+        <div className="buttonConfigsLeft">
           <button title="scroll left" onClick={slideLeft}>
             <AiOutlineArrowLeft />
           </button>{" "}
@@ -110,14 +111,12 @@ export default function TrendingSlider() {
                     <p>{item.description}</p>
                     <p className="item-place">{item.place}</p>
                   </div>
+
                   <div className="item-social">
-    
-<button type="button" class="relative inline-flex items-center p-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none">
-<FaUser size={20} color={"black"}/>
-  <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-black bg-green-500 border-2 rounded-full -top-2 -end-2 ">{item.social}</div>
-</button>
-
-
+                    <div class="relative inline-flex items-center p-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none">
+                      <FaUser size={20} color={"black"}/>
+                      <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-black bg-green-500 border-2 rounded-full -top-2 -end-2 ">{item.social}</div>
+                    </div>
                   </div>
                   <div className="item-comments">
                     <p>--{item.coment1}</p>
@@ -129,7 +128,7 @@ export default function TrendingSlider() {
             ))}
           </div>
         </div>
-        <div className="buttonConfigsLeft">
+        <div className="buttonConfigsRight">
         <button title="scroll right" onClick={slideRight}>
           {" "}
           <AiOutlineArrowRight />

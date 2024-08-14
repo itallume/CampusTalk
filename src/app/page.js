@@ -4,15 +4,13 @@ import TrendingSlider from "@/components/TrendingSlider";
 export default function Home() {
   return (
     <>
-      <section>oiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</section>
+      <section></section>
       <section>
         <div>
           <TrendingSlider />
         </div>
-
-        <p>oiii</p>
         </section>
-      <section>oiiiiiii</section>
+      <section></section>
     </>
   );
 }
