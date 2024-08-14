@@ -1,13 +1,9 @@
 .gridcontainer {
   display: flex;
-
   gap: 18px;
-  background-color: #333;
-  color: white;
   padding-bottom: 10px;
   text-align: center;
-  background-color: #fff3b0;
-  color: black;
+  background-color: #E5B061;
   justify-content: center;
   align-items: center;
   height: 50px;
