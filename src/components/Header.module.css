@@ -1,88 +1,83 @@
 .header {
-    background-color: #E5B061;
-    height: 10vh;
-    align-items: center;
+  background-color: #e5b061;
+  height: 10vh;
+  align-items: center;
 }
 .nav {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 1fr;
-    
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 1fr;
 }
 
 .divImage {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.image{
-    align-items: center;
-    width: 60%;
-    margin-left: 20px;
+.image {
+  align-items: center;
+  width: 60%;
+  margin-left: 20px;
 }
 
-.divSearch{
-    display: flex;
-    justify-content: center;
-    align-items: center ;
+.divSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.label{
-    display: flex;
-    align-items: center;
-    height: 60%;
-    width: 60%;
-    background-color: #FFF3B0;
-    border-radius: 9999999px;
-    
+.label {
+  display: flex;
+  align-items: center;
+  height: 60%;
+  width: 60%;
+  background-color: #fff3b0;
+  border-radius: 9999999px;
 }
 
-.input{
-    background-color: #FFF3B0;
-    width: 90%;    
-    margin-left: 5px;
-    color: black;
-    
+.input {
+  background-color: #fff3b0;
+  width: 90%;
+  margin-left: 5px;
+  color: black;
 }
 
-.input:focus{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
+.input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }
 
 .divBotaoLogin {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .divBotoes {
-    display: flex;
+  display: flex;
 }
 
 .botaoReg {
-    border-radius: 9999px;
-    background-color: #49ACAA;
-    padding: 15px;
-    margin-right: 20px;
-    color: #FFF3B0;
+  border-radius: 9999px;
+  background-color: #49acaa;
+  padding: 15px;
+  margin-right: 20px;
+  color: #fff3b0;
 }
 
 .botaoLog {
-    border-radius: 9999px;
-    background-color: #335C67;
-    padding: 15px;
-    margin-right: 20px;
-    color: #FFF3B0;
+  border-radius: 9999px;
+  background-color: #335c67;
+  padding: 15px;
+  margin-right: 20px;
+  color: #fff3b0;
 }
 
 .icon {
-    margin-left: 5px;
-    font-size: 1.5rem;
-    color: rgb(117, 117, 117);
-    
+  margin-left: 5px;
+  font-size: 1.5rem;
+  color: rgb(117, 117, 117);
 }

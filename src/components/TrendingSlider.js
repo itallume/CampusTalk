@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+import { AiOutlineArrowRight, AiOutlineArrowLeft} from "react-icons/ai";
+import {FaUser} from "react-icons/fa";
 import "./TrendingSlider.css";
 
 export default function TrendingSlider() {
@@ -110,7 +111,13 @@ export default function TrendingSlider() {
                     <p className="item-place">{item.place}</p>
                   </div>
                   <div className="item-social">
-                    <p>{item.social} on-line</p>
+    
+<button type="button" class="relative inline-flex items-center p-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none">
+<FaUser size={20} color={"black"}/>
+  <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-black bg-green-500 border-2 rounded-full -top-2 -end-2 ">{item.social}</div>
+</button>
+
+
                   </div>
                   <div className="item-comments">
                     <p>--{item.coment1}</p>
