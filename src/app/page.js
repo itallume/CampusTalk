@@ -1,17 +1,10 @@
 import Image from "next/image";
-
+import Header from "@/components/Header";
 export default function Home() {
 
   return (<>
-    <section></section>
-    <div
-    style={{
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-    }}
-    ></div>
+    
+  
     </>
   );
 }
