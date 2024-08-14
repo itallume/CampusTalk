@@ -133,3 +133,11 @@ html {
   align-items: center;
   padding: 1rem;
 }
+
+.item-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
