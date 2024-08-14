@@ -38,7 +38,7 @@ html {
 
 .trending {
   display: grid;
-  grid-template-columns:10% 80% 10%;
+  grid-template-columns: 10% 80% 10%;
   grid-template-rows: 1fr;
   height: 100vh;
 }
@@ -136,5 +136,17 @@ html {
   justify-content: flex-start;
   align-items: center;
   padding: 1rem;
-  gap: 1rem;
+  padding-top: 0;
+  gap: 5px;
+}
+
+.item-usuario {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.item-place {
+  font-size: 1.2rem;
 }

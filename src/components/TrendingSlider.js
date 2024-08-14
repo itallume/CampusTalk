@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft} from "react-icons/ai";
 import {FaUser} from "react-icons/fa";
+import { IoPersonCircleOutline } from "react-icons/io5";
 import "@/components/styles/TrendingSlider.css";
 
 export default function TrendingSlider() {
@@ -16,6 +17,7 @@ export default function TrendingSlider() {
       coment2:'Não acredito que estão cobrando isso',
       coment3:'Vou ter que ir de ônibus agora',
       social: 30,
+      userName: "jpaulo_baia",
     },
     {
       id: 2,
@@ -26,6 +28,8 @@ export default function TrendingSlider() {
       coment2: "Que nojooooo",
       coment3: "se nao gostou pagava um marmitex",
       social: 87,
+      userName: "itallume@1",
+
     },
     {
       id: 3,
@@ -36,6 +40,8 @@ export default function TrendingSlider() {
       coment2: "Não aguento mais isso",
       coment3: "Vou ter que trancar a matricula kkkkkk",
       social: 22,
+      userName: "caiobaX0",
+
     },
     {
       id: 4,
@@ -45,7 +51,8 @@ export default function TrendingSlider() {
       coment1: "Que bom que finalmente arrumaram isso!",
       coment2: "Agora sim, um lugar decente para estudar.",
       coment3: "Espero que o wifi funcione melhor aqui.",
-      social: 45
+      social: 45,
+      userName: "skyevez",
     },
     {
       id: 5,
@@ -55,7 +62,8 @@ export default function TrendingSlider() {
       coment1: "Amei o café novo, super recomendo!",
       coment2: "Finalmente um café decente aqui.",
       coment3: "Os preços estão ótimos!",
-      social: 67
+      social: 67,
+      userName: "Lightzz"
     },
     {
       id: 6,
@@ -65,7 +73,8 @@ export default function TrendingSlider() {
       coment1: "A comida está uma delícia!",
       coment2: "Finalmente opções mais saudáveis.",
       coment3: "Espero que mantenham essa qualidade.",
-      social: 53
+      social: 53,
+      userName: "anaR@quel"
     },
     {
       id: 7,
@@ -75,7 +84,9 @@ export default function TrendingSlider() {
       coment1: "Ótimo ver a biblioteca sendo melhorada!",
       coment2: "Agora tem mais mesas e cadeiras!",
       coment3: "Espero que o silêncio seja mantido.",
-      social: 78
+      social: 78,
+      userName: "Per31Silva"
+
     }
     
     
@@ -107,18 +118,27 @@ export default function TrendingSlider() {
                   {/* <div className="item-header">
                     <img src={item.img} alt="product" />
                   </div> */}
+                  
+                  <div className="item-usuario"> 
+                  <IoPersonCircleOutline size={50} />
+                  <p>@{item.userName}</p>
+                  </div>
+
                   <div className="item-description">
                     <p>{item.description}</p>
-                    <p className="item-place">{item.place}</p>
+                    <hr class="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                    {/* <p className="item-place">{item.place}</p> */}
                   </div>
 
                   <div className="item-social">
+                  <p className="item-place">{item.place}</p>
                     <div class="relative inline-flex items-center p-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none">
                       <FaUser size={20} color={"black"}/>
                       <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-black bg-green-500 border-2 rounded-full -top-2 -end-2 ">{item.social}</div>
                     </div>
                   </div>
                   <div className="item-comments">
+                    
                     <p>--{item.coment1}</p>
                     <p>--{item.coment2}</p>
                     <p>--{item.coment3}</p>
