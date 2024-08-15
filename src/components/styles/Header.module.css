@@ -1,12 +1,12 @@
 .header {
-    background-color: #E5B061;
-    height: 10vh;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1000000000000;
+  background-color: #e5b061;
+  height: 10vh;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000000000000;
 }
 
 .nav {
@@ -60,6 +60,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 20px;
 }
 
 .divBotoes {
@@ -86,4 +87,7 @@
   margin-left: 5px;
   font-size: 1.5rem;
   color: rgb(117, 117, 117);
+}
+.iconBell {
+  padding-top: 0.7rem;
 }
