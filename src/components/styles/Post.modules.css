@@ -1,6 +1,7 @@
 .post-card {
     width: 50%;
-    border: solid 0.5px black;
+    border-radius: 10px 10px 0 0;
+    border: solid 1px rgb(141, 141, 141);
     align-items: center;
 }
 
@@ -24,6 +25,7 @@
     display: inline-flex;
     align-items: center;
     width: 100%;
+    box-shadow: 0 1px 1px rgb(100, 100, 100);
 }
 
 #namePage{
@@ -53,9 +55,11 @@
 
 #interaction{
     width: 50%;
-    border: solid 0.5px black;
+    border-radius: 0 0 10px 10px;
+    border: solid 0.5px rgb(141, 141, 141);
     align-items: center;
     display: flex;
+    margin-bottom: 25px;
 }
 
 #click {

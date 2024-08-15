@@ -8,10 +8,8 @@ import { AiOutlineLike } from "react-icons/ai";
 import { CiShare2 } from "react-icons/ci";
 
 export default function Post(props){
-
-
     return (<>
-        <article className="post-card">
+        <article className="post-card" id={props.id}>
             <div className="header">
                 <div id="userIdent">
                     <FaRegUserCircle className="iconUser"/>
@@ -29,7 +27,7 @@ export default function Post(props){
 
             <div id="postImage">
                 
-                <img id="img" src={props.image} alt="" />
+                <img id="img" src={props.img} alt="" />
             </div>
 
         </article>
