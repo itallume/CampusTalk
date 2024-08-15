@@ -3,6 +3,7 @@ import TrendingSlider from "@/components/TrendingSlider";
 import Post from "@/components/Post";
 import DropDown from "@/components/DropDown";
 import {posts} from "@/app/data/seed"
+import LoginModal from "@/components/LoginModal";
 
 export default function Home() {
   return (
