@@ -19,17 +19,20 @@ html {
 /* global */
 .container {
   margin: 0 auto;
-  padding: 0 19px;
+
   display: flex;
   align-items: center;
 }
 
 .row-item {
   border: solid 1px rgb(175, 175, 175);
-  box-shadow: 5px 3px 0px rgb(110, 110, 110);
+  box-shadow: 3px 5px 10px rgb(110, 110, 110);
   cursor: pointer;
   transition: all 0.15s ease-in;
   border-radius: 20px;
+  /* width: 30rem;
+  flex-shrink: 0; */
+  min-width: 27rem;
 }
 
 .row-item:hover {
@@ -38,7 +41,7 @@ html {
 
 .trending {
   display: grid;
-  grid-template-columns:10% 80% 10%;
+  grid-template-columns: 10% 80% 10%;
   grid-template-rows: 1fr;
   height: 100vh;
 }
@@ -48,8 +51,9 @@ html {
 }
 
 .item-description {
-  font-size: 1.7rem;
+  font-size: 1.1rem;
   padding: 1rem;
+  max-width: 30rem;
 }
 
 .trending h3 {
@@ -136,5 +140,36 @@ html {
   justify-content: flex-start;
   align-items: center;
   padding: 1rem;
-  gap: 1rem;
+  padding-top: 0;
+  gap: 5px;
+}
+
+.item-usuario {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+
+  box-shadow: 0 1px 4px rgb(110, 110, 110);
+  border-top-right-radius: 20px;
+  border-radius: 20px 20px 0 20px;
+  background-color: #49acaa;
+}
+
+.item-place {
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+}
+.item-coments {
+  padding-bottom: 2rem;
+}
+.item-coment {
+  display: flex;
+  flex: start;
+  margin-left: 1rem;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+#item-coment-last {
+  margin-bottom: 1rem;
 }
