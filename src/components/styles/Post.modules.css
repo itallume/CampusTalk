@@ -1,0 +1,18 @@
+.post-card {
+    width: 50%;
+    border: solid 0.5px black;
+    
+    align-items: center;
+}
+
+#userIdent {
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
