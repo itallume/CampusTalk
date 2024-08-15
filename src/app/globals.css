@@ -19,3 +19,20 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+#uiToast {
+  color: white;
+  background-color: #9b6c43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 1rem;
+}
+#paiIuToast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
