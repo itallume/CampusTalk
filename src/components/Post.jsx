@@ -9,7 +9,7 @@ import { CiShare2 } from "react-icons/ci";
 
 export default function Post(props){
     return (<>
-        <article className="post-card" key={props.id}>
+        <article className="post-card">
             <div className="header">
                 <div id="userIdent">
                     <FaRegUserCircle className="iconUser"/>

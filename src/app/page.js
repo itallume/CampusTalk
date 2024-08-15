@@ -28,7 +28,7 @@ export default function Home() {
           <DropDown />
         </div>
         <div id="feed">
-          {posts.map((post) => (<Post id={post.id} username={post.username} pagName={post.pagName} postText={post.postText} img={post.img} likes={post.likes} comments={post.comments} />))}
+          {posts.map((post) => (<Post id={post.id} username={post.username} pagName={post.pagName} postText={post.postText} img={post.img} likes={post.likes} comments={post.comments}  key={post.id}/>))}
           
         </div>
         <div id="paiIuToast">
