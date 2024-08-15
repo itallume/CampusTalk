@@ -1,10 +1,13 @@
+"use client";
 import Image from "next/image";
 import Logo from "@/image/logo.png"
 import styles from "@/components/styles/Header.module.css"
 import { CiSearch } from "react-icons/ci";
 import { FaBell } from "react-icons/fa";
+import { useState } from "react";
+export default function Header({setShowModal}){
 
-export default function Header(){
+
 
     return (
     <>
@@ -34,7 +37,7 @@ export default function Header(){
                 <div
                 className={styles.divBotaoLogin}>
                     <div className={styles.divBotoes}>
-                        <div className={styles.botaoLog}>Entrar</div>
+                        <div className={styles.botaoLog} onClick={() => setShowModal(true)}>Entrar</div>
 
                         <div class="relative inline-flex items-center p-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none hover:bg-[#D4A256] hover:text-yellow-500">
                         <FaBell size={29} color={"black"}/> 
