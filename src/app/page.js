@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <>
       <section></section>
+<<<<<<< HEAD
         <section>
           <div>
               <TrendingSlider />
@@ -26,6 +27,19 @@ export default function Home() {
           <div id="feed">
             <Post username="itallo" pagName="IFPB"/>
           </div>
+=======
+      <section>
+        <div>
+          <TrendingSlider />
+        </div>
+        <div>
+          <DropDown />
+        </div>
+        <div id="feed">
+          <Post username="itallo" pagName="IFPB" postText="oiiiiiiiiiiiiiiiiiiiiii" image="h" 
+        likes="30" comments=" 30"/>
+        </div>
+>>>>>>> 07a19f6200e20c8f69487324df9235192af1e5e0
         
         </section>
       <section></section>
