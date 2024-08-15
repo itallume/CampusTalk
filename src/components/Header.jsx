@@ -33,7 +33,6 @@ export default function Header(){
                 <div
                 className={styles.divBotaoLogin}>
                     <div className={styles.divBotoes}>
-                        <div className={styles.botaoReg}>Registrar-se</div>
                         <div className={styles.botaoLog}>Entrar</div>
                     </div>
                 </div>

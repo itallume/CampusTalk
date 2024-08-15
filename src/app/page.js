@@ -11,7 +11,8 @@ export default function Home() {
         <div>
           <TrendingSlider />
         </div>
-        <div id="feed"><Post username="itallo" pagName="IFPB"/></div>
+        <div id="feed"><Post username="itallo" pagName="IFPB" postText="oiiiiiiiiiiiiiiiiiiiiii" image="h" 
+        likes="30" comments=" 30"/></div>
         
         </section>
       <section></section>
