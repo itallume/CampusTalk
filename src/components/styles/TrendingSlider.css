@@ -30,8 +30,6 @@ html {
   cursor: pointer;
   transition: all 0.15s ease-in;
   border-radius: 20px;
-  /* width: 30rem;
-  flex-shrink: 0; */
   min-width: 27rem;
 }
 
